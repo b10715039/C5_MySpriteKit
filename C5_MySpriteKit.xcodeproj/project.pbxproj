@@ -15,6 +15,8 @@
 		4837327127E1C56F0048033E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4837326F27E1C56F0048033E /* Main.storyboard */; };
 		4837327327E1C5700048033E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4837327227E1C5700048033E /* Assets.xcassets */; };
 		4837327627E1C5700048033E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4837327427E1C5700048033E /* LaunchScreen.storyboard */; };
+		4837327D27E1C5EC0048033E /* HelloScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4837327C27E1C5EC0048033E /* HelloScene.swift */; };
+		4837327F27E1C8440048033E /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4837327E27E1C8440048033E /* MainScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		4837327027E1C56F0048033E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4837327227E1C5700048033E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4837327527E1C5700048033E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4837327C27E1C5EC0048033E /* HelloScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloScene.swift; sourceTree = "<group>"; };
+		4837327E27E1C8440048033E /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 		4837325927E1C56F0048033E = {
 			isa = PBXGroup;
 			children = (
+				4837327C27E1C5EC0048033E /* HelloScene.swift */,
+				4837327E27E1C8440048033E /* MainScene.swift */,
 				4837326427E1C56F0048033E /* C5_MySpriteKit */,
 				4837326327E1C56F0048033E /* Products */,
 			);
@@ -145,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4837326C27E1C56F0048033E /* GameScene.swift in Sources */,
+				4837327D27E1C5EC0048033E /* HelloScene.swift in Sources */,
 				4837326E27E1C56F0048033E /* GameViewController.swift in Sources */,
+				4837327F27E1C8440048033E /* MainScene.swift in Sources */,
 				4837326627E1C56F0048033E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
